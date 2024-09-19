@@ -102,7 +102,7 @@ function findSameObj(json: any, typeMap: object, returnObj: any = {}, originJson
 
 export function findDesc(json: any, typeMap: object, key: string, name: string) {
   const { returnObj } = findSameObj(json, typeMap)
-  return returnObj && returnObj[key] ? returnObj[key].description || '注释' : '注释'
+  return returnObj && returnObj[key] ? returnObj[key].description : null
 }
 
 export function findRequired(json: any, typeMap: object, key: string, name: string) {
