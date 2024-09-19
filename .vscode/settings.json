@@ -67,7 +67,7 @@
     "v-html": "html"
   },
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "minapp-vscode.disableAutoConfig": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
