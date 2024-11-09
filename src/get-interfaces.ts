@@ -90,7 +90,7 @@ export function getInterfaceStringFromDescription({ name, typeMap }: InterfaceDe
     })
     .reduce((a, b) => (a += b), '')
 
-  let interfaceString = `export interface ${ name } {\n`
+  let interfaceString = `export interface I${ name } {\n`
   interfaceString += stringTypeMap
   interfaceString += '}'
 
